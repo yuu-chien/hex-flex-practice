@@ -1,0 +1,106 @@
+@import "common";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+#stageFive {
+    .styleOne {
+        background-color: $colorLightPink;
+        display: flex;
+        .card {
+            flex: 1;
+            display: flex;
+            padding: 2rem;
+            .logo {
+                width: 3.5rem;
+                height: 3.5rem;
+                margin-right: 1rem;
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                h5 {
+                    color: $colorWhite;
+                }
+                p {
+                    margin: .8rem 0;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    .styleTwo {
+        background-color: $colorLightPink;
+        display: flex;
+        margin-top: 2rem;
+        .card {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            .logo {
+                width: 5rem;
+                height: 5rem;
+                margin-bottom: 1rem;
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h5 {
+                    color: $colorWhite;
+                }
+                p {
+                    margin: .8rem 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .styleThree {
+        background-color: $colorLightPink;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        .card {
+            width: 100%;
+            display: flex;
+            box-sizing: border-box;
+            padding: 1rem;
+            .logo {
+                width: 6rem;
+                height: 6rem;
+                margin-right: 1rem;
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                h5 {
+                    color: $colorWhite;
+                }
+                p {
+                    margin: .8rem 0;
+                    text-align: justify;
+                }
+            }
+        }
+        .card:nth-child(2) {
+            flex-direction: row-reverse;
+            .logo {
+                margin-right: 0;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
