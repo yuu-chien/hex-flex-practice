@@ -1,6 +1,7 @@
 # Flex-Time-House-Practice
-六角學院 Flex 修煉時光屋。
-目前挑戰到第十關（最後一關），也有放到 CodePen
+六角學院 Flex 修煉時光屋。　
+
+目前挑戰到第十關（最後一關），CodePen 連結如後：）
 
  - Stage 01｜[並排卡片](https://codepen.io/YCH06/pen/RwPBrEK)
  
