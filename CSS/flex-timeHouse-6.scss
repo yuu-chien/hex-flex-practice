@@ -1,0 +1,89 @@
+@import "common";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#stageSix {
+    .top-bar {
+        padding: 1rem 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $colorLightPink;
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+            h1 {
+                color: $colorWhite;
+                margin-left: 1rem;
+            }
+        }
+        a {
+            display: inline-block;
+            &:hover {
+                color: $colorWhite;
+            }
+        }
+    }
+    .main-block {
+        padding: 2rem 5rem;
+        height: 80vh;
+        display: flex;
+        .main-img-wrap {
+            flex: 2;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .content {
+            flex: 5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 2rem;
+            .text-wrap {
+                h3 {
+                    color: $colorLightOrange;
+                    text-shadow: 1px 0px 3px black;
+                }
+                p {
+                    margin-top: 1rem;
+                    text-align: justify;
+                }
+            }
+            .sns-wrap {
+                display: flex;
+                li {
+                    margin: 0 .5rem;
+                    a {
+                        color: $colorPink;
+                        &:hover {
+                            color: $colorBrown;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
