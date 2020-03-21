@@ -1,6 +1,7 @@
 * {
   font-family: 'Libre Baskerville','Microsoft JhengHei';
   color: #321E17;
+  outline: 0.2px solid olivedrab;
 }
 
 h1, h3, h5, p {
