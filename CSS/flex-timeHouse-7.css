@@ -1,0 +1,117 @@
+* {
+  font-family: 'Libre Baskerville','Microsoft JhengHei';
+  color: #321E17;
+}
+
+h1, h3, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#stageSeven {
+  width: 100vw;
+}
+
+#stageSeven .main-view {
+  width: 100%;
+  height: 88vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFCEC7;
+}
+
+#stageSeven .main-view img {
+  width: 10rem;
+  height: 10rem;
+}
+
+#stageSeven .main-view h3 {
+  margin-top: 1rem;
+}
+
+#stageSeven .footer {
+  width: 100%;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FCE9DA;
+}
+
+#stageSeven .footer .logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+}
+
+#stageSeven .footer .logo-wrap img {
+  width: 50px;
+  height: 50px;
+}
+
+#stageSeven .footer .logo-wrap h1 {
+  margin-left: 1rem;
+  color: #fffdfd;
+}
+
+#stageSeven .footer .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 2rem;
+}
+
+#stageSeven .footer .footer-list li {
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+#stageSeven .footer .footer-list li a:hover {
+  color: #E098AE;
+}
+/*# sourceMappingURL=flex-timeHouse-7.css.map */
