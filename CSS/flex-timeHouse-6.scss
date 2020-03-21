@@ -45,7 +45,7 @@ a {
     }
     .main-block {
         padding: 2rem 5rem;
-        height: 80vh;
+        height: 70vh;
         display: flex;
         .main-img-wrap {
             flex: 2;
@@ -64,8 +64,8 @@ a {
             margin-left: 2rem;
             .text-wrap {
                 h3 {
-                    color: $colorLightOrange;
-                    text-shadow: 1px 0px 3px black;
+                    color: $colorWhite;
+                    text-shadow: 1px 1px 3px $colorBrown;
                 }
                 p {
                     margin-top: 1rem;

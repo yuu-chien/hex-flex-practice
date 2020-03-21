@@ -79,7 +79,7 @@ a {
 
 #stageSix .main-block {
   padding: 2rem 5rem;
-  height: 80vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,8 +117,8 @@ a {
 }
 
 #stageSix .main-block .content .text-wrap h3 {
-  color: #FCE9DA;
-  text-shadow: 1px 0px 3px black;
+  color: #fffdfd;
+  text-shadow: 1px 1px 3px #321E17;
 }
 
 #stageSix .main-block .content .text-wrap p {
