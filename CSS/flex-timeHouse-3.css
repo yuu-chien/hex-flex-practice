@@ -19,6 +19,11 @@ li {
   padding: 0;
 }
 
+a {
+  display: block;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -58,9 +63,13 @@ h5 {
 }
 
 #stageThree .left-block .logo-wrap {
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -77,13 +86,25 @@ h5 {
 }
 
 #stageThree .left-block .menu {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 1rem;
 }
 
-#stageThree .left-block .menu .menu-item {
-  margin: .5rem;
+#stageThree .left-block .menu li a {
   font-weight: 600;
   font-size: 1.5rem;
+  text-align: center;
+}
+
+#stageThree .left-block .menu li a:hover {
+  color: #fffdfd;
 }
 
 #stageThree .right-block {

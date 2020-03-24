@@ -26,7 +26,9 @@ h5 {
         padding: 3rem 0;
         background-color: $colorLightPink;
         .logo-wrap {
+            width: 70%;
             display: flex;
+            justify-content: center;
             align-items: center;
             img {
                 width: 50px;
@@ -38,11 +40,19 @@ h5 {
             }
         }
         .menu {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
             margin-top: 1rem;
-            .menu-item {
-                margin: .5rem;
-                font-weight: 600;
-                font-size: 1.5rem;
+            li {
+                a {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    &:hover {
+                        color: $colorWhite;
+                    }
+                }
             }
         }
 
