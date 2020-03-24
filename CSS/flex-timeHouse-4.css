@@ -83,6 +83,10 @@ h5 {
   color: #fffdfd;
 }
 
+#stageFour .nav .menu-list li a:hover {
+  color: #fffdfd;
+}
+
 #stageFour .content {
   width: 60%;
   margin: auto;
@@ -128,5 +132,9 @@ h5 {
 
 #stageFour .footer ul li {
   padding: .5rem;
+}
+
+#stageFour .footer ul li a:hover {
+  color: #fffdfd;
 }
 /*# sourceMappingURL=flex-timeHouse-4.css.map */

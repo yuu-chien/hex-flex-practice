@@ -40,6 +40,11 @@ h5 {
             li {
                 padding: .5rem;
                 color: $colorWhite;
+                a {
+                    &:hover {
+                        color: $colorWhite;
+                    }
+                }
             }
         }
     }
@@ -70,6 +75,11 @@ h5 {
             justify-content: center;
             li {
                 padding: .5rem;
+                a {
+                    &:hover {
+                        color: $colorWhite;
+                    }
+                }
             }
         }
     }
