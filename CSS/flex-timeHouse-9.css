@@ -57,26 +57,22 @@ h5 {
   background-color: #FFCEC7;
 }
 
-#stageNine .order-summary Ul {
-  padding: 1rem 2rem;
-}
-
-#stageNine .order-summary Ul .order-detail {
+#stageNine .order-summary .order-detail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: .3rem 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-#stageNine .order-summary Ul .order-detail p {
+#stageNine .order-summary .order-detail p {
   font-size: 1.2rem;
   color: #E098AE;
 }
 
-#stageNine .order-summary Ul .order-detail:nth-child(3) p, #stageNine .order-summary Ul .order-detail:nth-child(3) span {
+#stageNine .order-summary .order-detail:nth-child(3) p, #stageNine .order-summary .order-detail:nth-child(3) span {
   font-size: 1.5rem;
   font-weight: 600;
 }

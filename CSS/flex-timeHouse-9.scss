@@ -32,25 +32,23 @@ h5 {
         .title {
             @include titleStyle;
         }
-        Ul {
-            padding: 1rem 2rem;
-            .order-detail {
-                display: flex;
-                justify-content: space-between;
-                padding: .3rem 0;
-                p {
-                    font-size: 1.2rem;
-                    color: $colorPink;
-                }
-            }
-            .order-detail:nth-child(3) {
-                p, span {
-                    font-size: 1.5rem;
-                    font-weight: 600;
-                }
+        // 外層有 ul
+        .order-detail {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            p {
+                font-size: 1.2rem;
+                color: $colorPink;
             }
         }
-
+        .order-detail:nth-child(3) {
+            p, span {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+        // 外層有 ul
     }
     .order-list{
         width: 100%;
