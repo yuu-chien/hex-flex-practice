@@ -1,0 +1,41 @@
+@import './reset';
+@import './variable';
+
+.l-card {
+  display: flex;
+  background-color: $primary;
+
+  &-item {
+    max-width: 372px;
+    margin-right: 24px;
+  }
+}
+
+.card {
+  &_mv {
+    padding: 84px 72px;
+    background-color: $primary-light;
+  }
+
+  &_title {
+    text-align: center;
+    font-size: 76px;
+    color: $primary;
+  }
+
+  &_subTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: $primary;
+    margin-bottom: 32px;
+  }
+
+  &_content {
+    padding: 32px 36px;
+    background-color: #fff;
+  }
+
+  &_text {
+    font-size: 24px;
+  }
+}
